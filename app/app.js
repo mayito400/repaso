@@ -6,7 +6,7 @@
  
 app.listen(8080, ()=>{
     //console.log("hOLAaaaaa")
-    message("Hola Mundo", "danger")
+    message("Hola Mundo Hijueputa", "danger")
 })
 /*
 Babel al instalarse viene con las actualizaciones reciente de EMJ
