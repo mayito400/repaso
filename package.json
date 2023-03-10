@@ -4,18 +4,22 @@
   "description": "Hola repaso",
   "main": "app/index.js",
   "scripts": {
-    "dev": "nodemon app/app.js --exec babel-node"
+    "dev": " set NODE_ENV=developer& nodemon app/index.js --exec babel-node",
+    "qa": " set NODE_ENV=qa& nodemon app/index.js --exec babel-node",
+    "start": " set NODE_ENV=production& nodemon app/index.js --exec babel-node"
+
+
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinalg8/Repaso.git"
+    "url": "git+https://github.com/kevinalg8/Repaso8.git"
   },
   "author": "deSara",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevinalg8/Repaso/issues"
+    "url": "https://github.com/kevinalg8/Repaso8/issues"
   },
-  "homepage": "https://github.com/kevinalg8/Repaso#readme",
+  "homepage": "https://github.com/kevinalg8/Repaso8#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "cors": "^2.8.5",

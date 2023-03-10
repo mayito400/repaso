@@ -2,12 +2,11 @@
  //const express=require("express");
  import express from "express";
  import message from "./config/message";
+ import enviroment from "./config/enviroment";
  const app = express();
+ app.set("PORT",process.env.PORT || 3000) ;
  
-app.listen(8080, ()=>{
-    //console.log("hOLAaaaaa")
-    message("Hola Mundo Hijueputa", "danger")
-})
 /*
 Babel al instalarse viene con las actualizaciones reciente de EMJ
  */
+export default app;
